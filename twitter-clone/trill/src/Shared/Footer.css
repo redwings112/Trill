@@ -1,0 +1,21 @@
+footer {
+  display: flex;
+  justify-content: center; /* Center buttons horizontally */
+  gap: 10px; /* Adjust the gap between buttons */
+}
+
+footer button {
+  padding: 0; /* Remove padding */
+  margin: 0;  /* Remove margin to make the buttons closer */
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Add smooth transition for hover effect */
+}
+
+footer button:hover {
+  background-color: #0056b3; /* Darker color on hover */
+  transform: scale(1.05); /* Slightly enlarge button on hover */
+}

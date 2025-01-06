@@ -1,0 +1,51 @@
+.container {
+  margin-top: 20px;
+}
+
+.welcome-text {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.new-post {
+  margin-bottom: 20px;
+}
+
+.post {
+  margin-bottom: 20px;
+  padding: 15px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.post-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.post-text {
+  margin-top: 10px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.reply-input {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.replies {
+  margin-top: 10px;
+  padding-left: 15px;
+  font-size: 12px;
+  color: #555;
+}
+
+.divider {
+  margin-top: 10px;
+  border-top: 1px solid #ddd;
+}
